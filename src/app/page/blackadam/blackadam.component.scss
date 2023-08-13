@@ -1,0 +1,138 @@
+.hero-image {
+  background-image: url("https://lh3.googleusercontent.com/8-lkVaqm-yOYA48sM9il5WgO9LWU9WD0zDFobzCwX05ELk_Ufk-FP2fZN0ImmP_qwuycFUjzN_DhWqOTVt4I49W0bQ8iZ6R4RA=w1920");
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  flex-direction: column;
+  box-sizing: border-box;
+  display: flex;
+  place-content: center flex-end;
+  align-items: center;
+}
+
+.font {
+  font-family: Prompt, sans-serif;
+  color: ghostwhite;
+}
+
+.left_col8 {
+  position: relative;
+  left: 10%;
+  flex-direction: column;
+  box-sizing: border-box;
+  display: flex;
+  place-content: flex-start;
+  align-items: flex-start;
+}
+
+.ticket {
+  background:
+    linear-gradient(#22224e, transparent),
+    linear-gradient(to top left, #0accfe, transparent),
+    linear-gradient(to top right, #0f0f3d, transparent);
+  background-blend-mode: screen;
+}
+
+.left_col4 {
+  position: relative;
+  float: left;
+  flex-direction: column;
+  box-sizing: border-box;
+  display: flex;
+  place-content: flex-start;
+  align-items: flex-start;
+}
+
+.icon {
+  float: right;
+  flex-direction: row;
+  align-items: center;
+}
+
+.label {
+  font-size: 16px;
+  font-family: Prompt, sans-serif;
+  color: ghostwhite;
+}
+
+p.one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  width: 270px;
+  height: 170px;
+  border-color: rgb(113, 153, 226);
+  border-width: 1px;
+}
+
+.example-card {
+  width: 800px;
+  height: 440px;
+  display: block;
+  margin-left: 350px;
+  margin-right: auto;
+}
+p.two{
+    display: block;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: -140px;
+    width: 285px;
+    height: 410px;
+    align-items: center;
+    border-style: solid;
+    border-color: rgb(113, 153, 226);
+    border-width: 1px;
+}
+.photo {
+  margin-left: 10px;
+  flex-direction: row;
+  box-sizing: border-box;
+  display: flex;
+  place-content: flex-start;
+  align-items: flex-start;
+}
+
+.text {
+  font-family: Prompt, sans-serif;
+  color: darkslategrey;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+.example-card1 {
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+
+}
+.label_text {
+  margin-top: 30px;
+  font-size: 16px;
+  font-family: Prompt, sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.SYNOPSIS{
+  font-size: 16px;
+  font-family: Prompt, sans-serif;
+  display: block;
+  margin-left: 205px;
+  margin-right: auto;
+  color: #22224e;
+}
+p {
+  text-indent: 20px;
+}
+hr.new1 {
+  border-top: 1px solid rgb(113, 153, 226);
+  width: 2px;
+
+}
+.centerrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

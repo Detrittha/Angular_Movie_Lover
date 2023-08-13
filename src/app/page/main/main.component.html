@@ -1,0 +1,11 @@
+<div class="row label">
+    <div class="col -6">
+      <a class="label" href="/movie" style="float: right;">Go to Movie Page (Href)
+      </a>
+    </div>
+    <div class="col -6">
+
+      <a class="label"  [routerLink]="['/movie',{ outlets: { movieoutlet:['blackadam']}}]" style="float: left; ">
+        Go to Movie Page (RouterLink)</a>
+    </div>
+</div>
